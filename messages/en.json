@@ -1,0 +1,80 @@
+{
+    "common": {
+        "appName": "Teaching Activities Schedule",
+        "home": "Home",
+        "admin": "Admin",
+        "login": "Login",
+        "logout": "Logout",
+        "loading": "Loading...",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "create": "Create",
+        "search": "Search",
+        "reset": "Reset",
+        "confirm": "Confirm",
+        "back": "Back"
+    },
+    "home": {
+        "title": "Teaching Activities Schedule",
+        "subtitle": "Browse all upcoming teaching activities and use filters to quickly find events that interest you.",
+        "resultsCount": "Found {count} activities",
+        "noResults": "No activities found matching your criteria. Please try adjusting your filters."
+    },
+    "filters": {
+        "title": "Filters",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "activityTitle": "Activity Title",
+        "activityTitlePlaceholder": "Search by title...",
+        "speaker": "Speaker Name",
+        "speakerPlaceholder": "Search by speaker...",
+        "resetFilters": "Reset Filters"
+    },
+    "activity": {
+        "title": "Title",
+        "startTime": "Start Time",
+        "endTime": "End Time",
+        "location": "Location",
+        "speaker": "Speaker",
+        "description": "Description"
+    },
+    "login": {
+        "title": "Admin Login",
+        "subtitle": "Sign in with your account to access the admin panel",
+        "googleLogin": "Continue with Google",
+        "githubLogin": "Continue with GitHub",
+        "adminOnly": "Only administrators can access the admin panel.",
+        "needHelp": "Need help? Please contact the system administrator.",
+        "backToHome": "Back to Home"
+    },
+    "admin": {
+        "title": "Admin Panel",
+        "welcome": "Welcome, {email}",
+        "activityManagement": "Activity Management",
+        "activityManagementDesc": "Manage all teaching activities, including adding, editing, and deleting.",
+        "addActivity": "+ Add Activity",
+        "editActivity": "Edit Activity",
+        "newActivity": "New Activity",
+        "deleteConfirm": "Are you sure you want to delete this activity? This action cannot be undone.",
+        "deleteSuccess": "Deleted successfully",
+        "deleteFailed": "Delete failed: {error}",
+        "saveSuccess": "Saved successfully",
+        "saveFailed": "Save failed: {error}",
+        "loadFailed": "Failed to load activities",
+        "noActivities": "No activities yet",
+        "required": "Required",
+        "titlePlaceholder": "e.g., Introduction to Artificial Intelligence",
+        "locationPlaceholder": "e.g., Building A, Room 301",
+        "speakerPlaceholder": "e.g., Professor Zhang",
+        "descriptionPlaceholder": "Brief description of the activity...",
+        "saveChanges": "Save Changes",
+        "createActivity": "Create Activity",
+        "saving": "Saving...",
+        "endTimeError": "End time must be after start time"
+    },
+    "footer": {
+        "copyright": "© 2026 Teaching Activities Schedule System. Built with Next.js and Supabase."
+    }
+}

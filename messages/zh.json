@@ -1,0 +1,80 @@
+{
+    "common": {
+        "appName": "教学活动日程表",
+        "home": "首页",
+        "admin": "管理后台",
+        "login": "登录",
+        "logout": "退出登录",
+        "loading": "加载中...",
+        "cancel": "取消",
+        "save": "保存",
+        "delete": "删除",
+        "edit": "编辑",
+        "create": "创建",
+        "search": "搜索",
+        "reset": "重置",
+        "confirm": "确认",
+        "back": "返回"
+    },
+    "home": {
+        "title": "教学活动日程",
+        "subtitle": "浏览所有即将举行的教学活动，使用筛选条件快速找到您感兴趣的活动。",
+        "resultsCount": "找到 {count} 个活动",
+        "noResults": "没有找到符合条件的活动，请尝试调整筛选条件。"
+    },
+    "filters": {
+        "title": "筛选条件",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "activityTitle": "活动标题",
+        "activityTitlePlaceholder": "搜索活动标题...",
+        "speaker": "演讲者姓名",
+        "speakerPlaceholder": "搜索演讲者...",
+        "resetFilters": "重置筛选"
+    },
+    "activity": {
+        "title": "标题",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "location": "地点",
+        "speaker": "演讲者",
+        "description": "活动描述"
+    },
+    "login": {
+        "title": "管理员登录",
+        "subtitle": "使用您的账号登录以访问管理后台",
+        "googleLogin": "使用 Google 登录",
+        "githubLogin": "使用 GitHub 登录",
+        "adminOnly": "仅管理员可以访问后台管理功能。",
+        "needHelp": "如需帮助，请联系系统管理员。",
+        "backToHome": "返回首页"
+    },
+    "admin": {
+        "title": "管理后台",
+        "welcome": "欢迎，{email}",
+        "activityManagement": "活动管理",
+        "activityManagementDesc": "管理所有教学活动，包括新增、编辑和删除操作。",
+        "addActivity": "+ 新增活动",
+        "editActivity": "编辑活动",
+        "newActivity": "新增活动",
+        "deleteConfirm": "确定要删除这个活动吗？此操作无法撤销。",
+        "deleteSuccess": "删除成功",
+        "deleteFailed": "删除失败：{error}",
+        "saveSuccess": "保存成功",
+        "saveFailed": "保存失败：{error}",
+        "loadFailed": "加载活动数据失败",
+        "noActivities": "暂无活动数据",
+        "required": "必填",
+        "titlePlaceholder": "例如：人工智能基础入门",
+        "locationPlaceholder": "例如：教学楼A座301室",
+        "speakerPlaceholder": "例如：张教授",
+        "descriptionPlaceholder": "简要描述活动内容...",
+        "saveChanges": "保存修改",
+        "createActivity": "创建活动",
+        "saving": "保存中...",
+        "endTimeError": "结束时间必须晚于开始时间"
+    },
+    "footer": {
+        "copyright": "© 2026 教学活动日程表管理系统. 使用 Next.js 和 Supabase 构建."
+    }
+}
