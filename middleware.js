@@ -20,10 +20,19 @@ export async function middleware(request) {
     const response = intlMiddleware(request);
 
     // 2. Create Supabase client
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+    if (!supabaseUrl || !supabaseKey) {
+        console.error('Middleware Error: Missing Supabase environment variables!');
+        // If critical vars are missing, we can't do auth checks, but we return the i18n response to avoid 500 crash
+        return response;
+    }
+
     // We explicitly create a client for middleware to handle cookies correctly
     const supabase = createServerClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+        supabaseUrl,
+        supabaseKey,
         {
             cookies: {
                 get(name) {
