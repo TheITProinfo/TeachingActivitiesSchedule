@@ -75,6 +75,6 @@
         "endTimeError": "结束时间必须晚于开始时间"
     },
     "footer": {
-        "copyright": "© 2026 教学活动日程表管理系统. 使用 Next.js 和 Supabase 构建."
+        "copyright": "© 2026 教学活动日程表管理系统. Created by Eric@2026"
     }
 }

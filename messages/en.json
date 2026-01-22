@@ -75,6 +75,6 @@
         "endTimeError": "End time must be after start time"
     },
     "footer": {
-        "copyright": "© 2026 Teaching Activities Schedule System. Built with Next.js and Supabase."
+        "copyright": "© 2026 Teaching Activities Schedule System. Created by Eric@2026"
     }
 }
